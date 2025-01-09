@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    font-family: Amazon Ember;
+    border: border-box;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 45px;
+    width: 130px;
+    padding: 8px 8px 0px 6px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 45px;
+    width: 100%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+    border-radius: 4.5px;
+}
+
+/** box 2**/
+.address-first {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+}
+
+.address-second {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.address-icon {
+    display: flex;
+}
+
+/** box 3**/
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    height: 45px;
+    width: 650px;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1.15rem;
+    border: none;
+    outline: none;
+}
+
+.search-input:focus-within {
+    border: 2px solid orange;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0F1111;
+}
+
+/* Country */
+.nav-country {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-country img {
+    height: 16px;
+    width: 22px;
+}
+
+.eng {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-left: 3px;
+}
+
+.nav-country i {
+    margin-left: 3px;
+}
+
+/*box 4*/
+
+span {
+    font-size: 0.8rem;
+}
+
+.nav-second {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/*box 5*/
+
+.nav-cart i {
+    font-size: 1.6rem;
+}
+
+.nav-cart {
+    font-size: 1rem;
+    font-weight: 600;
+}
