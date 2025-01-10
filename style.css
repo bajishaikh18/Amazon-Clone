@@ -1,139 +1,316 @@
 * {
-    margin: 0;
-    font-family: Amazon Ember;
-    border: border-box;
+  margin: 0;
+  font-family: Amazon Ember;
+  border: border-box;
 }
 
 .navbar {
-    height: 60px;
-    background-color: #0F1111;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .nav-logo {
-    height: 45px;
-    width: 130px;
-    padding: 8px 8px 0px 6px;
+  height: 45px;
+  width: 130px;
+  padding: 8px 8px 0px 6px;
 }
 
 .logo {
-    background-image: url("Resources/amazon_logo.png");
-    background-size: cover;
-    height: 45px;
-    width: 100%;
+  background-image: url("Resources/amazon_logo.png");
+  background-size: cover;
+  height: 45px;
+  width: 100%;
 }
 
 .border {
-    border: 1.5px solid transparent;
+  border: 1.5px solid transparent;
 }
 
 .border:hover {
-    border: 1.5px solid white;
-    border-radius: 4.5px;
+  border: 1.5px solid white;
+  border-radius: 4.5px;
 }
 
 /** box 2**/
 .address-first {
-    color: #cccccc;
-    font-size: 0.8rem;
-    margin-left: 15px;
+  color: #cccccc;
+  font-size: 0.8rem;
+  margin-left: 15px;
 }
 
 .address-second {
-    font-size: 1rem;
-    margin-left: 5px;
+  font-size: 1rem;
+  margin-left: 5px;
 }
 
 .address-icon {
-    display: flex;
+  display: flex;
 }
 
 /** box 3**/
 
 .nav-search {
-    display: flex;
-    justify-content: space-evenly;
-    background-color: pink;
-    height: 45px;
-    width: 650px;
-    border-radius: 5px;
-    border: none;
+  display: flex;
+  justify-content: space-evenly;
+  background-color: pink;
+  height: 40px;
+  width: 700px;
+  border-radius: 5px;
+  border: none;
 }
 
 .search-select {
-    background-color: #f3f3f3;
-    width: 50px;
-    text-align: center;
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
-    border: none;
+  background-color: #f3f3f3;
+  width: 50px;
+  text-align: center;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
 }
 
 .search-input {
-    width: 100%;
-    font-size: 1.15rem;
-    border: none;
-    outline: none;
+  width: 100%;
+  font-size: 1.15rem;
+  border: none;
+  outline: none;
 }
 
 .search-input:focus-within {
-    border: 2px solid orange;
+  border: 2px solid orange;
 }
 
 .search-icon {
-    width: 45px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.3rem;
-    background-color: #febd68;
-    border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    color: #0F1111;
+  width: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  background-color: #febd68;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #0f1111;
 }
 
 /* Country */
 .nav-country {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .nav-country img {
-    height: 16px;
-    width: 22px;
+  height: 16px;
+  width: 22px;
 }
 
 .eng {
-    font-size: 1rem;
-    font-weight: 600;
-    margin-left: 3px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 3px;
 }
 
 .nav-country i {
-    margin-left: 3px;
+  margin-left: 3px;
 }
 
 /*box 4*/
 
 span {
-    font-size: 0.8rem;
+  font-size: 0.8rem;
 }
 
 .nav-second {
-    font-size: 1rem;
-    font-weight: 600;
+  font-size: 1rem;
+  font-weight: 600;
 }
 
 /*box 5*/
 
 .nav-cart i {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .nav-cart {
-    font-size: 1rem;
-    font-weight: 600;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Panel */
+
+.panel {
+  height: 40px;
+  background-color: #222f3d;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.panel-all {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.panel p {
+  display: inline;
+  margin-left: 8px;
+}
+
+.panel p:hover {
+  border: 1.5px solid white;
+  border-radius: 4.5px;
+}
+
+/* Hero Section*/
+
+.hero-section {
+  background-image: url(Resources/hero-image.jpg);
+  background-size: contain;
+  height: 260px;
+}
+
+/* Shop Section*/
+.shop-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #94cc93;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.box {
+  height: 420px;
+  width: 23%;
+  background-color: white;
+}
+
+.shop-section img {
+  height: 420px;
+  width: 400;
+  cursor: pointer;
+}
+
+/* Footer */
+footer{
+  margin-top: 15px;
+}
+.foot1 {
+  background-color: #37475a;
+  color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot2 {
+  height: 400px;
+  background-color: #222f3d;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+ul p {
+margin-top: 15px;
+color: #ffffff;
+font-weight: 600;
+font-size: 1.3rem;
+}
+
+ul a{
+  display: block;
+  margin-top: 10px;
+  color: #dddddd;
+  cursor: pointer
+}
+
+ul a:hover {
+  text-decoration: underline;
+}
+
+.foot3 {
+  height: 68px;
+  background-color: #222f3d;
+  border-top: 0.01px solid #dddddd;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+}
+
+.foot3 img {
+  height: 2rem;
+  width: 4rem;
+}
+
+.foot-lang {
+  color: #cccccc;
+  display: flex;
+  border: 1px solid #cccccc;
+  height: 25px;
+  width: 125px;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 2px;
+}
+
+.foot-country img {
+  height: 20px;
+  width: 30px;
+}
+
+.foot-country {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #cccccc;
+  border: 1px solid #cccccc;
+  height: 30px;
+  width: 80px;
+  border-radius: 2px;
+}
+
+.foot4 {
+  height: 180px;
+  background-color: #131a22;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-size: 0.8rem;
+  padding: 20px 100px;
+}
+
+.foot4 ul {
+  width: 250px;
+}
+
+.foot4 p {
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+.foot5 {
+  height: 60px;
+  background-color: #131a22;
+  font-size: 0.8rem;
+  color: #ffffff;
+  display: block;
+  justify-items: center;
+}
+
+.foot5 a {
+  margin-left: 10px;
+
+}
+
+.foot5 a:hover {
+  text-decoration: underline;
+}
+
+.foot5 p {
+  padding-top: 10px;
 }
